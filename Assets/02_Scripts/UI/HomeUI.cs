@@ -19,12 +19,17 @@ public class HomeUI : BaseUI
 
     public void OnClickStartButton()
     {
-
+        uiManager.SetPlayGame();
     }
 
     public void OnClickExitButton()
     {
+#if UNITY_EDITER
+    UnityEditor.EditorApplication.isPlaying = false;
+#else
         Application.Quit();
+#endif
+
     }
 
     protected override UIState GetUIstate()

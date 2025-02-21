@@ -8,7 +8,6 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
-  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -122,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Frame_0
+  - name: adventurer-run3_Frame_0
     originalName: 
     pivot: {x: 0.5416666, y: -0.035714287}
     alignment: 9
@@ -133,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 24
       height: 28
-    spriteID: 3847171a8c72b75488c2f34d8016dd01
+    spriteID: 632c7bc6c4c2e9145abaeacdd2e12f8b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,7 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 39, y: 4}
-  - name: Frame_2
+  - name: adventurer-run3_Frame_2
     originalName: 
     pivot: {x: 0.5217391, y: -0.040000003}
     alignment: 9
@@ -153,7 +152,7 @@ ScriptedImporter:
       y: 40
       width: 23
       height: 25
-    spriteID: 3d02e3c43557ffb47a4b1d74a41910a5
+    spriteID: 11a0c07c318f760438942f2e4289cf7a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -162,7 +161,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 35, y: 40}
-  - name: Frame_3
+  - name: adventurer-run3_Frame_3
     originalName: 
     pivot: {x: 0.44444445, y: -0.035714287}
     alignment: 9
@@ -173,7 +172,7 @@ ScriptedImporter:
       y: 4
       width: 27
       height: 28
-    spriteID: c1e050e86fa54a646b09d99866b4146a
+    spriteID: 75146b9bdf26a3c49bdb94b0f0124f4c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -182,7 +181,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Frame_4
+  - name: adventurer-run3_Frame_4
     originalName: 
     pivot: {x: 0.5217391, y: -0.037037037}
     alignment: 9
@@ -193,7 +192,7 @@ ScriptedImporter:
       y: 4
       width: 23
       height: 27
-    spriteID: 9b88d300f01e3464f8b95402559f51a4
+    spriteID: f3bd1a309b215a24997bd705af44b75e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -202,7 +201,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 71, y: 4}
-  - name: Frame_1
+  - name: adventurer-run3_Frame_1
     originalName: 
     pivot: {x: 0.5217391, y: -0.037037037}
     alignment: 9
@@ -213,7 +212,7 @@ ScriptedImporter:
       y: 40
       width: 23
       height: 27
-    spriteID: 31c341e5e86675a43b69101584672baf
+    spriteID: 7b6d256da12c2c64da691ccb345f81c2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -222,7 +221,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 40}
-  - name: Frame_5
+  - name: adventurer-run3_Frame_5
     originalName: 
     pivot: {x: 0.5, y: -0.040000003}
     alignment: 9
@@ -233,7 +232,7 @@ ScriptedImporter:
       y: 4
       width: 22
       height: 25
-    spriteID: 6e2aa6bf3cccc8443bd54a326010c193
+    spriteID: dddc3e8173935fc43b04f48eab455c35
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -245,66 +244,60 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1883738045
+    guid: -519694361
     name: adventurer-run3
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: adventurer-run3_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 1
         width: 24
         height: 28
-      spriteId: 3847171a8c72b75488c2f34d8016dd01
-    - name: Frame_2
+      spriteId: 632c7bc6c4c2e9145abaeacdd2e12f8b
+    - name: adventurer-run3_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 1
         width: 23
         height: 25
-      spriteId: 3d02e3c43557ffb47a4b1d74a41910a5
-    - name: Frame_3
+      spriteId: 11a0c07c318f760438942f2e4289cf7a
+    - name: adventurer-run3_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 1
         width: 27
         height: 28
-      spriteId: c1e050e86fa54a646b09d99866b4146a
-    - name: Frame_4
+      spriteId: 75146b9bdf26a3c49bdb94b0f0124f4c
+    - name: adventurer-run3_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 1
         width: 23
         height: 27
-      spriteId: 9b88d300f01e3464f8b95402559f51a4
-    - name: Frame_1
+      spriteId: f3bd1a309b215a24997bd705af44b75e
+    - name: adventurer-run3_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 1
         width: 23
         height: 27
-      spriteId: 31c341e5e86675a43b69101584672baf
-    - name: Frame_5
+      spriteId: 7b6d256da12c2c64da691ccb345f81c2
+    - name: adventurer-run3_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 14
         y: 1
         width: 22
         height: 25
-      spriteId: 6e2aa6bf3cccc8443bd54a326010c193
+      spriteId: dddc3e8173935fc43b04f48eab455c35
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -324,4 +317,3 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 50, y: 37}
-  previousTextureSize: {x: 128, y: 128}

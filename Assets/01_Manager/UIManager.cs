@@ -13,9 +13,9 @@ public enum UIState
 public class UIManager : MonoBehaviour
 {
 
-    HomeUI homeUI;
-    GameUI gameUI;
-    GameOverUI gameOverUI;
+    public HomeUI homeUI;
+    public GameUI gameUI;
+    public GameOverUI gameOverUI;
 
     private UIState currentState;
 
@@ -30,6 +30,7 @@ public class UIManager : MonoBehaviour
 
         ChangeState(UIState.Home);
     }
+
 
     public void SetPlayGame()
     {
