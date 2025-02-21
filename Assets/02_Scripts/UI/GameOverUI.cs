@@ -1,18 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class GameOverUI : MonoBehaviour
+public class GameOverUI : BaseUI
 {
-    // Start is called before the first frame update
-    void Start()
+
+    [SerializeField] private Button restartButton;
+    [SerializeField] private Button exitButton;
+
+    public override void Init(UIManager uIManager)
     {
+        base.Init(uIManager);
+
+        restartButton.onClick.AddListener(OnClickRestartButton);
+        exitButton.onClick.AddListener(OnClickExitButton);
+    }
+
+    public void OnClickRestartButton()
+    {     
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnClickExitButton()
     {
-        
+        Application.Quit();
     }
+
+    protected override UIState GetUIstate()
+    {
+        return UIState.GameOver;
+    }
+
+
 }

@@ -1,18 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class GameUI : MonoBehaviour
+using UnityEngine.UI;
+public class GameUI : BaseUI
 {
-    // Start is called before the first frame update
-    void Start()
+
+    [SerializeField] private Slider hpSlider;
+
+    public override void Init(UIManager uIManager)
     {
-        
+        base.Init(uIManager);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        UpdateHPSlider(1);
     }
+
+    public void UpdateHPSlider(float percentage)
+    {
+        hpSlider.value = percentage;
+    }
+
+
+
+    protected override UIState GetUIstate()
+    {
+        return UIState.Game;
+    }
+
 }
